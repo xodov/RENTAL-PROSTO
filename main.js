@@ -11,4 +11,4 @@ function changeImage() {
   }
 }
 
-var timeChange = setInterval(changeImage, 3000)
+var timeChange = setInterval(changeImage, 2500)
