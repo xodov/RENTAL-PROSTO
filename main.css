@@ -122,7 +122,10 @@ a:hover{
 }
 
 .main1 {
-    background: url(images/bg.jpg);
+    background: white no-repeat center cover fixed;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    transition: 2.5s;
     height: 450px;
 }
 
