@@ -33,7 +33,7 @@
     color: black;
     text-decoration: none;
     margin-left: 3%;
-    margin-top: 1%;
+    padding-top: 1%;
 }
 
 a:hover{
@@ -139,36 +139,6 @@ a:hover{
 .main1 h2 {
     text-align: center;
     color: white;
-}
-
-.selectorL {
-    font-size: 500%;
-    margin-top: -65px;
-    background: none;
-    border: none;
-    color: white;
-    float: left;
-    margin-left: 3%;
-}
-
-.selectorL:hover {
-    transform: scale(2, 1);
-    color: yellow;
-}
-
-.selectorR {
-    font-size: 500%;
-    margin-top: -65px;
-    background: none;
-    border: none;
-    color: white;
-    float: right;
-    margin-right: 3%;
-}
-
-.selectorR:hover {
-    transform: scale(2, 1);
-    color: yellow;
 }
 
 .buttons1 {
