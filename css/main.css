@@ -263,7 +263,7 @@ a:hover{
 .main4 {
     border-top: 2px solid yellow;
     background: black;
-    height: 450px;
+    height: 250px;
 }
 
 .lozung3 {
@@ -298,4 +298,99 @@ a:hover{
 
 .btn5:hover {
     background: yellow;
+}
+
+.main5 {
+    height: 125px;
+    background: black;
+}
+
+.lozung4 {
+    color: white;
+    text-align: left;
+    padding-top: 3%;
+    margin-left: 10%;
+}
+
+.signIn {
+    background: yellow;
+    height: 55%;
+}
+
+.email {
+    background: yellow;
+    color: black;
+    width: 45%;
+    margin-left: 25%;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+}
+
+.email::placeholder {
+    color: black;
+}
+
+.btn6 {
+    color: white;
+    background: black;
+    padding: 15px;
+    border: none;
+    margin-top: 5px;
+}
+
+.main6 {
+    border-bottom: 2px solid yellow;
+    background: black;
+    height: 450px;
+}
+
+.lozung5 {
+    border: 2px solid grey;
+    position: absolute;
+    background: black;
+    color: white;
+    margin-left: 34%;
+    margin-top: 3%;
+    padding: 1%;
+    width: 30%;
+    font-size: medium;
+    text-align: center;
+}
+
+.salesImg {
+    padding-top: 10%;
+    margin-left: 15%;
+}
+
+.saleImg {
+    display: inline;
+    width: 25%;
+    height: 150px;
+    background: grey;
+    margin-inline: 1%;
+    border: none;
+}
+
+.sale1 {
+    color: white;
+    margin-left: 16%;
+    width: 25%;
+    text-align: left;
+}
+
+.sale2 {
+    color: white;
+    margin-left: 39.5%;
+    width: 25%;
+    text-align: left;
+    margin-top: -36px;
+}
+
+.sale3 {
+    color: white;
+    margin-left: 63%;
+    width: 25%;
+    text-align: left;
+    margin-top: -17px;
 }
