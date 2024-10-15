@@ -8,7 +8,6 @@ function changeImage() {
   if (imageIndex >= imageArray.length) {
     imageIndex = 0;
   }
-
 }
 var timeChange = setInterval(changeImage, 5000)
 
@@ -50,3 +49,8 @@ function buttonChange6() {
     myImage.style.backgroundImage = "url('images/bg6.jpg')"
   }
 }
+
+window.addEventListener('load', function() {
+  var preloader = document.getElementById('preloader')
+  preloader.style.display = 'none'
+})

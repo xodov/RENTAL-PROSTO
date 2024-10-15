@@ -1,7 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner {
+    width: 5%;
+    height: 50px;
+    border: 5px solid yellow;
+    border-top-color: black;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
 * {
     padding: 0%;
     margin: 0%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'manrope';
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: yellow;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px, auto;
+    padding: 0px;
 }
 
 .header1 {
@@ -26,14 +69,14 @@
     float: left;
     color: black;
     margin-right: 3%;
-    margin-top: 1%;
+    margin-top: 0.8%;
 }
 
 .navigation, a {
     color: black;
     text-decoration: none;
     margin-left: 3%;
-    padding-top: 1%;
+    padding-top: 0.8%;
 }
 
 a:hover{
@@ -55,14 +98,14 @@ a:hover{
     float: left;
     margin-left: 10%;
     margin-right: 7%;
-    margin-top: 1.8%;
+    margin-top: 1.5%;
 }
 
 .des2 {
     color: white;
     float: left;
     width: 15%;
-    margin-top: 1.5%;
+    margin-top: 1.2%;
     margin-right: 2%;
 }
 
@@ -73,7 +116,7 @@ a:hover{
     border-bottom: 2px solid white;
     background: black;
     color: white;
-    margin-top: 2.5%;
+    margin-top: 2.2%;
     margin-right: 2%;
 }
 
@@ -86,7 +129,7 @@ a:hover{
     color: yellow;
     border: 2px solid yellow;
     padding: 15px;
-    margin-top: 9%;
+    margin-top: 6.5%;
 }
 
 .dropdown {
@@ -152,6 +195,7 @@ a:hover{
     width: 2%;
     height: 5px;
     padding-inline: 1.5%;
+    transition: 0.2s;
 }
 
 .btn1:hover {
@@ -196,23 +240,23 @@ a:hover{
     color: white;
     width: 15%;
     text-align: center;
-    padding-top: 3%;
-    margin-left: 14%;
+    padding-top: 2%;
+    margin-left: 14.4%;
 }
 
 .des4 {
     color: white;
     width: 15%;
     text-align: center;
-    margin-top: -3%;
-    margin-left: 33%;
+    margin-top: -5.5%;
+    margin-left: 33.1%;
 }
 
 .des5 {
     color: white;
     width: 15%;
     text-align: center;
-    margin-top: -3%;
+    margin-top: -3.8%;
     margin-left: 52.1%;
 }
 
@@ -220,8 +264,8 @@ a:hover{
     color: white;
     width: 15%;
     text-align: center;
-    margin-top: -3.3%;
-    margin-left: 71.3%;
+    margin-top: -3.8%;
+    margin-left: 71%;
 }
 
 .main3 {
@@ -263,7 +307,7 @@ a:hover{
 .main4 {
     border-top: 2px solid yellow;
     background: black;
-    height: 450px;
+    height: 250px;
 }
 
 .lozung3 {
@@ -294,8 +338,122 @@ a:hover{
     width: 2%;
     height: 5px;
     padding-inline: 1.5%;
+    transition: 0.2s;
 }
 
 .btn5:hover {
     background: yellow;
+}
+
+.main5 {
+    height: 125px;
+    background: black;
+}
+
+.lozung4 {
+    color: white;
+    text-align: left;
+    padding-top: 3%;
+    margin-left: 10%;
+}
+
+.signIn {
+    background: yellow;
+    height: 55%;
+}
+
+.email {
+    background: yellow;
+    color: black;
+    width: 45%;
+    margin-left: 25%;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 4px;
+}
+
+.email::placeholder {
+    color: black;
+}
+
+.btn6 {
+    color: white;
+    background: black;
+    padding: 15px;
+    border: none;
+    margin-top: -1px;
+}
+
+.main6 {
+    border-bottom: 2px solid yellow;
+    background: black;
+    height: 450px;
+}
+
+.lozung5 {
+    border: 2px solid grey;
+    position: absolute;
+    background: black;
+    color: white;
+    margin-left: 34%;
+    margin-top: 3%;
+    padding: 1%;
+    width: 30%;
+    font-size: medium;
+    text-align: center;
+}
+
+.salesImg {
+    padding-top: 10%;
+    margin-left: 15%;
+}
+
+.saleImg {
+    display: inline;
+    width: 25%;
+    height: 150px;
+    background: grey;
+    margin-inline: 1%;
+    border: none;
+}
+
+.sale1 {
+    color: white;
+    margin-left: 16%;
+    width: 23%;
+    text-align: left;
+}
+
+.sale2 {
+    color: white;
+    margin-left: 39.5%;
+    width: 23%;
+    text-align: left;
+    margin-top: -65px;
+}
+
+.sale3 {
+    color: white;
+    margin-left: 63%;
+    width: 23%;
+    text-align: left;
+    margin-top: -45px;
+}
+
+@media (max-width:1800px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .container {
+        max-width: none;
+    }
 }
