@@ -196,6 +196,7 @@ a:hover{
     height: 5px;
     padding-inline: 1.5%;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .btn1:hover {
@@ -339,6 +340,7 @@ a:hover{
     height: 5px;
     padding-inline: 1.5%;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .btn5:hover {
