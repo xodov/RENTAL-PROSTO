@@ -54,3 +54,17 @@ window.addEventListener('load', function() {
   var preloader = document.getElementById('preloader')
   preloader.style.display = 'none'
 })
+
+var pageHeight = document.documentElement.scrollHeight
+var firstMain = document.getElementById('main1')
+var secondMain = document.getElementById('main2')
+
+function newTitle() {
+  if (pageHeight == firstMain) {
+    document.title = 'Навигация'
+  }
+
+  if (pageHeight == secondMain) {
+    document.title = 'Почему мы'
+  }
+}

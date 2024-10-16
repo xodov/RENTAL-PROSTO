@@ -29,6 +29,11 @@
     font-family: 'manrope';
 }
 
+body {
+    width: 100%;
+    height: auto;
+}
+
 body::-webkit-scrollbar {
     width: 15px;
 }
